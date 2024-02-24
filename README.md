@@ -9,7 +9,9 @@ This repository contains the implementation of a JAX-based, automatically differ
 
 - `./DifferLand`: This directory contains the source code for DifferLand.
     - `model`: Here lies the JAX-based implementation of the DALEC990 model, which is automatically differentiable. The DALEC990 model offers six different configurations for representing the influence of soil water availability on GPP and ET. It is designed to be easily adaptable and extendable to meet diverse modeling requirements.
-- `./notebooks`: This folder includes a notebook for analyzing and interpreting results, as well as generating figures for our manuscript.
+    - `optimization`: code related to optimization and computing loss function terms
+    - `util`: code to assist parameter initialization, normalization, data preprocessing, and output visualization
+- `./notebooks`: This folder includes notebooks for analyzing and interpreting results, as well as generating figures for our manuscript.
 - `./wavelet`: MATLAB scripts for generating wavelet coherence analysis figures presented in our manuscript. These scripts require the [MATLAB wavelet package](https://www.mathworks.com/products/wavelet.html) for execution.
 - `./experiment`: Contains scripts for canopy efficiency precalibration, model calibration, and SHAP value computation.
 - `./drivers`: This directory stores drivers for the 16 sites, including target variables.
