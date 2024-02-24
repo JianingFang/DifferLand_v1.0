@@ -1,0 +1,37 @@
+02/22/2024 04:22:13 PM iter 1, loss: 75.416, test nnse: 0.700
+02/22/2024 04:22:14 PM Numerical issue encountered, trying to reinitialize the model...
+02/22/2024 04:22:14 PM iter 1, loss: 465.482, test nnse: 0.268
+02/22/2024 04:22:14 PM Numerical issue encountered, trying to reinitialize the model...
+02/22/2024 04:22:14 PM iter 1, loss: 207.541, test nnse: 0.529
+02/22/2024 04:22:14 PM Numerical issue encountered, trying to reinitialize the model...
+02/22/2024 04:22:14 PM iter 1, loss: 698.852, test nnse: 0.291
+02/22/2024 04:22:14 PM Numerical issue encountered, trying to reinitialize the model...
+02/22/2024 04:22:14 PM iter 1, loss: 1014.619, test nnse: 0.294
+02/22/2024 04:22:14 PM Numerical issue encountered, trying to reinitialize the model...
+02/22/2024 04:22:14 PM iter 1, loss: 129.367, test nnse: 0.400
+02/22/2024 04:22:14 PM Numerical issue encountered, trying to reinitialize the model...
+02/22/2024 04:22:14 PM iter 1, loss: 231.190, test nnse: 0.534
+02/22/2024 04:22:20 PM iter 1001, loss: 51.976, test nnse: 1.656
+02/22/2024 04:22:26 PM iter 2001, loss: 25.614, test nnse: 1.767
+02/22/2024 04:22:32 PM iter 3001, loss: 11.902, test nnse: 1.955
+02/22/2024 04:22:39 PM iter 4001, loss: 6.967, test nnse: 1.904
+02/22/2024 04:22:44 PM iter 5001, loss: 2.950, test nnse: 1.823
+02/22/2024 04:22:50 PM iter 6001, loss: -0.069, test nnse: 1.754
+02/22/2024 04:22:56 PM iter 7001, loss: -0.838, test nnse: 1.732
+02/22/2024 04:23:02 PM iter 8001, loss: -1.141, test nnse: 1.714
+02/22/2024 04:23:08 PM iter 9001, loss: -1.383, test nnse: 1.715
+02/22/2024 04:23:14 PM iter 10001, loss: -1.534, test nnse: 1.748
+02/22/2024 04:23:19 PM iter 11001, loss: -1.640, test nnse: 1.842
+02/22/2024 04:23:25 PM iter 12001, loss: -1.774, test nnse: 1.970
+02/22/2024 04:23:31 PM iter 13001, loss: -1.916, test nnse: 2.101
+02/22/2024 04:23:37 PM iter 14001, loss: -2.060, test nnse: 2.243
+02/22/2024 04:23:43 PM iter 15001, loss: -2.204, test nnse: 2.386
+02/22/2024 04:23:49 PM iter 16001, loss: -2.327, test nnse: 2.494
+02/22/2024 04:23:55 PM iter 17001, loss: -2.415, test nnse: 2.562
+02/22/2024 04:24:02 PM iter 18001, loss: -2.472, test nnse: 2.595
+02/22/2024 04:24:08 PM iter 19001, loss: -2.515, test nnse: 2.616
+02/22/2024 04:24:15 PM iter 20001, loss: -2.548, test nnse: 2.627
+02/22/2024 04:24:22 PM iter 21001, loss: -2.572, test nnse: 2.637
+02/22/2024 04:24:29 PM iter 22001, loss: -2.597, test nnse: 2.647
+02/22/2024 04:24:36 PM iter 23001, loss: -2.617, test nnse: 2.655
+02/22/2024 04:24:43 PM iter 24001, loss: -2.636, test nnse: 2.665
