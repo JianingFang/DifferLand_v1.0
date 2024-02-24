@@ -11,7 +11,7 @@ This repository contains the implementation of a JAX-based, automatically differ
     - `util`: code to assist parameter initialization, normalization, data preprocessing, and output visualization
 - `./notebooks`: This folder includes notebooks for analyzing and interpreting results, as well as generating figures for our manuscript.
 - `./wavelet`: MATLAB scripts for generating wavelet coherence analysis figures presented in our manuscript. These scripts require the [MATLAB wavelet package](https://www.mathworks.com/products/wavelet.html) for execution.
-- `./experiment`: Contains scripts for canopy efficiency precalibration, model calibration, and SHAP value computation.
+- `./experiments`: Contains scripts for canopy efficiency precalibration, model calibration, and SHAP value computation.
 - `./drivers`: This directory stores drivers for the 16 sites, including target variables.
 - `./output_nc`: For ease of analysis, we provide a NetCDF file containing the output of the best fitting run (evaluated on the training period) for each site and model configuration in this directory. Users can generate additional NetCDF files for other runs by adapting the script provided in the accompanying notebook.
 
