@@ -110,6 +110,18 @@ This repository contains the implementation of a JAX-based, automatically differ
 4) Compute SHAP values with the script `./experiments/compute_shap.py`. Use `-h` to access the help messages.
 5) Analyze and interpret the results using the Jupyter notebook `./notebooks/analyze_local_edc_daily.ipynb` This is the notebook we used to generate the figures in our paper. You may add your own code to interpret the results.
 
+## Model Configurations:
+Please refer to the manuscript for further details, the Table 1 is reproduced here for a quick reference
+| No | Setup             | GPP Form                         | ET Form                                                  | Effective Trainable Parameters |
+|----|-------------------|----------------------------------|----------------------------------------------------------|--------------------------------|
+| 1  | baseline          | GPP = 1 × GPPACM                | ET = (GPP × √VPD) / uWUE + SSRD × r                      | 24 physical                    |
+| 2  | β-JS              | GPP = JS-βt × GPPACM            | ET = (GPP × √VPD) / uWUE + SSRD × r                      | 26 physical                    |
+| 3  | β-nn              | GPP = nn(PAW) × GPPACM          | ET = (GPP × √VPD) / uWUE + SSRD × r                      | 24 physical + 31 nn            |
+| 4  | GPP&ET(NN)_MET    | GPP, ET = nn(Ta, SSRD, VPD, PAW, CO2) |                                                      | 21 physical + 192 nn           |
+| 5  | GPP&ET(NN)_MET+LAI| GPP, ET = nn(Ta, SSRD, LAI, VPD, PAW, CO2) |                                                  | 21 physical + 202 nn           |
+| 6  | GPP(ACM)_ET(NN)   | GPP = nn(PAW) × GPPACM          | ET = nn(Ta, SSRD, LAI, VPD, PAW, GPP, CO2)               | 24 physical + 31 nn + 201 nn  |
+
+
 
 ## Acknowledgements:
 We would like to express our special thanks to Dr. Nuno Carvalhais and members of the Model-Data Integration group at the Max Planck Institute for Biogeochemistry (MPI-BGC) for the many insightful discussions related to this work during J.F.’s academic visit at MPI-BGC. We would also like to thank Dr. Xu Lian for providing the Aridity Index climatology data from TerraClimate, and Dr. Anthony Bloom for the advice on incorporating the ecological & dynamical constraints. J.F. and P.G. are supported by the NASA ROSES-22 Future Investigators in NASA Earth and Space Science and Technology (FINESST) Program (Grant Number: 80NSSC24K0023). This work was also funded by the Land Ecosystem Models based On New Theory, obseRvations, and ExperimEnts (LEMONTREE) project (UREAD 1005109-LEMONTREE), the European Research Council grant USMILE (ERC CU18-3746), and National Science Foundation Science and Technology Center LEAP, Learning the Earth with Artificial intelligence and Physics (AGS-2019625). 
