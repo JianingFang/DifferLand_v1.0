@@ -5,8 +5,6 @@ This repository contains the implementation of a JAX-based, automatically differ
 
 ## Project Structure:
 
-## Project Structure:
-
 - `./DifferLand`: This directory contains the source code for DifferLand.
     - `model`: Here lies the JAX-based implementation of the DALEC990 model, which is automatically differentiable. The DALEC990 model offers six different configurations for representing the influence of soil water availability on GPP and ET. It is designed to be easily adaptable and extendable to meet diverse modeling requirements.
     - `optimization`: code related to optimization and computing loss function terms
