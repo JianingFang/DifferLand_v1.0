@@ -126,6 +126,4 @@ We would like to express our special thanks to Dr. Nuno Carvalhais and members o
 
 ## Citation:
 
-Fang, J., Gentine, P. (2024). Exploring Optimal Complexity for Soil Water Stress Representation: A Hybrid-Machine Learning Approach. Manuscript submitted for publication.
-
-*Our manuscript has been submitted to Journal of Advances in Modeling Earth Systems (JAMES). The citation will be updated upon acceptace.*
+Fang, J., & Gentine, P. (2024). Exploring Optimal Complexity for Water Stress Representation in Terrestrial Carbon Models: A Hybrid‐Machine Learning Model Approach. *Journal of Advances in Modeling Earth Systems*, 16(12), e2024MS004308.
